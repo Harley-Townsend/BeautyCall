@@ -1,0 +1,187 @@
+.ms-madi-regular {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    margin: 5px 5px 0px 5px;
+    padding: 0px;
+    background-color: pink;
+    font-family: Arial, sans-serif; 
+    background-image: url("https://wallpapercave.com/wp/wp5980872.jpg");
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 10px; 
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: palevioletred;
+    padding: 5px;
+    border: 2px solid goldenrod;
+    margin: 10px 0; 
+    text-align: center; 
+    background-image: linear-gradient(pink, palevioletred);
+    
+}
+
+h1 {
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    font-family: "Ms Madi", cursive;
+    word-spacing: 6px;
+    text-shadow: 2px 2px 0 goldenrod
+}
+
+nav {
+    width: 15%;
+    float: left;
+    background-color: palevioletred;
+    border: 2px solid goldenrod;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 20px;
+    font-family: "Ms Madi", cursive;
+    word-spacing: 6px;
+    background-image: linear-gradient(pink, palevioletred);
+    text-shadow: 2px 2px 0 goldenrod
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    display: block; 
+    padding: 5px 0; 
+}
+
+nav a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+    text-shadow: 0px 0px 0;
+}
+
+main {
+    width: 60%;
+    float: left;
+    background-color: pink;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    border-style: solid;
+    border-color: goldenrod
+}
+
+main a {
+    color: white;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+aside {
+    width: 15%;
+    float: right;
+    background-color: palevioletred;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid goldenrod;
+    box-sizing: border-box; 
+    position: sticky;
+    top: 20px;
+    background-image: linear-gradient(pink, palevioletred);
+}
+
+aside h2 {
+    font-family: "Ms Madi", cursive;
+    text-align: center;
+    word-spacing: 6px;
+    text-shadow: 2px 2px 0 goldenrod
+}
+
+aside a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+aside p {
+    margin-left: 5px;
+}
+
+aside a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    border-style: solid;
+    border-color: goldenrod;
+}
+
+table {
+    border-style: solid;
+    border-color: goldenrod;
+    border-collapse: collapse;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-image: url("https://wallpapercave.com/wp/wp5980872.jpg");
+
+}
+
+th {
+    border-style: solid;
+    border-color: goldenrod;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+    text-shadow: 2px 2px 0 goldenrod;
+}
+
+td {
+    border-style: solid;
+    border-color: goldenrod;
+    padding: 20px;
+    margin: 5px;
+    text-align: left;
+    text-shadow: 2px 2px 0 goldenrod;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    height: 30px;
+    width: 100%;
+    clear: both; 
+    position: fixed;
+    font-style: italic;
+    left: 0;
+    bottom: 0;
+    border-top: 2px solid goldenrod;
+    color: white;
+    background-color: palevioletred;
+    padding: 15px;
+    text-align: center; 
+}
